@@ -11,10 +11,6 @@
 
 BOT_NAME = 'booking_crawler'
 
-
-MONGO_URI = "10.100.2.1:27017"
-MONGO_DATABASE = "booking"
-
 SPIDER_MODULES = ['booking_crawler.spiders']
 NEWSPIDER_MODULE = 'booking_crawler.spiders'
 
